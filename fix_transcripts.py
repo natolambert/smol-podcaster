@@ -21,11 +21,17 @@ def create_fix_mapping(custom_mapping: Optional[Dict[str, str]] = None) -> Dict[
         # ML orgs
         "noose": "Nous",
         "Dali": "DALL·E",
+        "DeepSeq": "DeepSeek",
 
         # models
         " lama ": " Llama ",
         "Lama": "Llama",
+        "LAMA": "Llama",
         "Lama 1": "Llama 1",
+        "OMO2": "OLMo 2",
+        "OMO1": "OLMo 1",
+        "ALMO": "OLMo",
+        "Allmo": "OLMo",
 
         # names
         "Swyggs": "Swyx",
