@@ -68,7 +68,8 @@ def transcribe_audio(file_url, episode_name, speakers_count):
     print(f"Running smol-podcaster on {file_url}")
 
     output = replicate.run(
-        "thomasmol/whisper-diarization:7e5dafea13d80265ea436e51a310ae5103b9f16e2039f54de4eede3060a61617",
+        # "thomasmol/whisper-diarization:7e5dafea13d80265ea436e51a310ae5103b9f16e2039f54de4eede3060a61617",
+        "thomasmol/whisper-diarization:cbd15da9f839c5f932742f86ce7def3a03c22e2b4171d42823e83e314547003f",
         input={
             "file_url": file_url,
             "num_speakers": speakers_count,
